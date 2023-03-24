@@ -182,8 +182,10 @@
 
     const submit = document.querySelector(".submit");
     submit.addEventListener("click", function(){
+      if (score){
       rating.classList.add("hide");
       thankyou.classList.remove("hide");
+      }
     })
     
   </script>
